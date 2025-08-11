@@ -1,0 +1,54 @@
+ body{
+        margin: 0;
+     }
+nav{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    nav ul{
+        display: flex;
+        list-style: none;
+        gap: 2rem;  
+     }
+     nav a{
+        text-decoration: none;
+        color:white;                                                                                   
+     }
+     header{
+        background-color: black;
+        color: antiquewhite;
+        padding: 1rem;
+     }
+     nav a:hover{
+      color: rgb(1, 1, 26);
+     }
+     .hero{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color:background: #2c0db5;
+background: linear-gradient(90deg, rgba(44, 13, 181, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(237, 221, 83, 1) 100%);;
+      padding: 3rem;
+     }
+     .hero img{
+      width: 150px;
+      background-color: antiquewhite;
+      border-radius: 100%; 
+      margin-right: 5rem;
+     }
+     .skill-grid{
+      display: grid;
+      grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+      gap: 1rem;
+   
+     }
+     .skill{
+      background-color: rgb(18, 63, 65);
+      padding: 1rem;
+      text-align: center;
+      border-radius:8px;
+     }
+     
+     
+
